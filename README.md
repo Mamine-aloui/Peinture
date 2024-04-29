@@ -104,3 +104,6 @@ Le projet vise à développer un logiciel de peinture qui offre aux utilisateurs
 
 # Diagramme de machine d'etat:
 ![Cat](https://github.com/Mamine-aloui/Peinture/blob/main/Diagrammes/Diagramme de machine d etat.svg)
+
+# Diagramme de classe raffinée:
+![Cat](https://github.com/Mamine-aloui/Peinture/blob/main/Diagrammes/Classe Raffinee.svg)
