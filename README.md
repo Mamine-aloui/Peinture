@@ -86,3 +86,18 @@ Le projet vise à développer un logiciel de peinture qui offre aux utilisateurs
 
 # Diagramme de cas d'utilisation:
 ![Cat](https://github.com/Mamine-aloui/Peinture/blob/main/Diagrammes/usecase.png)
+
+# Diagramme de sequence:
+![Cat](https://github.com/Mamine-aloui/Peinture/blob/main/Diagrammes/sequence1.svg)
+
+# Diagramme de cas d'utilisation:
+![Cat](https://github.com/Mamine-aloui/Peinture/blob/main/Diagrammes/usecase.png)
+
+# Diagramme de cas d'utilisation:
+![Cat](https://github.com/Mamine-aloui/Peinture/blob/main/Diagrammes/usecase.png)
+
+# Diagramme de cas d'utilisation:
+![Cat](https://github.com/Mamine-aloui/Peinture/blob/main/Diagrammes/usecase.png)
+
+# Diagramme de cas d'utilisation:
+![Cat](https://github.com/Mamine-aloui/Peinture/blob/main/Diagrammes/usecase.png)
