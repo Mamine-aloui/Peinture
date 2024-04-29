@@ -87,17 +87,20 @@ Le projet vise à développer un logiciel de peinture qui offre aux utilisateurs
 # Diagramme de cas d'utilisation:
 ![Cat](https://github.com/Mamine-aloui/Peinture/blob/main/Diagrammes/usecase.png)
 
-# Diagramme de sequence:
+# Diagramme de sequence 1:
 ![Cat](https://github.com/Mamine-aloui/Peinture/blob/main/Diagrammes/sequence1.svg)
 
-# Diagramme de cas d'utilisation:
-![Cat](https://github.com/Mamine-aloui/Peinture/blob/main/Diagrammes/usecase.png)
+# Diagramme de sequence 2:
+![Cat](https://github.com/Mamine-aloui/Peinture/blob/main/Diagrammes/sequence2.svg)
 
-# Diagramme de cas d'utilisation:
-![Cat](https://github.com/Mamine-aloui/Peinture/blob/main/Diagrammes/usecase.png)
+# Diagramme de sequence 3:
+![Cat](https://github.com/Mamine-aloui/Peinture/blob/main/Diagrammes/sequence3.svg)
 
-# Diagramme de cas d'utilisation:
-![Cat](https://github.com/Mamine-aloui/Peinture/blob/main/Diagrammes/usecase.png)
+# Diagramme de Classe:
+![Cat](https://github.com/Mamine-aloui/Peinture/blob/main/Diagrammes/Class.svg)
 
-# Diagramme de cas d'utilisation:
-![Cat](https://github.com/Mamine-aloui/Peinture/blob/main/Diagrammes/usecase.png)
+# Diagramme de conception detaillé:
+![Cat](https://github.com/Mamine-aloui/Peinture/blob/main/Diagrammes/conception detaillee.svg)
+
+# Diagramme de machine d'etat:
+![Cat](https://github.com/Mamine-aloui/Peinture/blob/main/Diagrammes/Diagramme de machine d etat.svg)
