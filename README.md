@@ -107,3 +107,19 @@ Le projet vise à développer un logiciel de peinture qui offre aux utilisateurs
 
 # Diagramme de classe raffinée:
 ![Cat](https://github.com/Mamine-aloui/Peinture/blob/main/Diagrammes/Classe_Raffinee.svg)
+
+**Invariant stylus = (Size>0)**
+
+**Operation Save File**
+
+| le fichier est enregistré avec succès  | Le fichier n'est pas enregistré à cause d'une erreur  |                               |
+|----------------------------------------|-------------------------------------------------------|-------------------------------|
+| T                                      | F                                                     | Afficher message de réussite  |
+| F                                      | T                                                     | Afficher message d'erreur     |
+
+**Operation Turn On**
+
+| La tablette est allumée avec succès. |  La tablette ne peut pas être allumée en raison d'une erreur. | Actions                                     |
+|--------------------------------------|---------------------------------------------------------------|---------------------------------------------|
+| T                                    | F                                                             | Activer les fonctionnalités de la tablette. |
+| F                                    | T                                                             | Afficher un message d'erreur                |
