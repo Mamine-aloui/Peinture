@@ -38,14 +38,14 @@ Le projet vise à développer un logiciel de peinture qui offre aux utilisateurs
 
 **Postconditions:**
 
-- Le Workspace est créé
 
-|                |                              | 1   | 2   | 3   | 4   | 5   |
-| -------------- | ---------------------------- | --- | --- | --- | --- | --- |
-| Préconditions  | choisir dimension            | F   | F   | T   | T   | T   |
-| Préconditions  | choisir nom du fichier       | F   | T   | F   | T   | T   |
-| Préconditions  | espace de stockage suffisant | F   | T   | T   | F   | T   |
-| Postconditions | Le workspace est crée        | F   | F   | F   | F   | T   |
+|                                          | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   |
+| ---------------------------------------- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Choisir la dimension(Hauteur et Largeur) | T   | T   | T   | F   | T   | F   | F   | F   |
+| Choisir un nom de fichier                | T   | T   | F   | T   | F   | T   | F   | F   |
+| Espace de Stockage suffisant             | T   | F   | T   | T   | F   | F   | T   | F   |
+| Postconditions                           |     |     |     |     |     |     |     |     |
+| Le Workspace est créé                    | T   | F   | F   | F   | F   | F   | F   | F   |
 
 # 2 : Use tool:
 
@@ -58,11 +58,12 @@ Le projet vise à développer un logiciel de peinture qui offre aux utilisateurs
 
 - Modifier le workspace (faire la peinture de tableau)
 
-|                |                         | 1   | 2   | 3   | 4   |
-| -------------- | ----------------------- | --- | --- | --- | --- |
-| Préconditions  | un tool est choisi      | F   | F   | T   | T   |
-| Préconditions  | un workspace est ouvert | F   | T   | F   | T   |
-| Postconditions | modifier le workspace   | F   | F   | F   | T   |
+|                         | 1   | 2   | 3   | 4   |
+| ----------------------- | --- | --- | --- | --- |
+| Un tool est choisi      | T   | T   | F   | F   |
+| Un Worskpace est ouvert | T   | F   | T   | F   |
+| Postconditions          |     |     |     |     |
+| Modifier le Workspace   | T   | F   | F   | F   |
 
 # 3 : Transform Style:
 
@@ -75,8 +76,13 @@ Le projet vise à développer un logiciel de peinture qui offre aux utilisateurs
 
 - Le style de tableau est transformé
 
-|                |                                    | 1   | 2   | 3   | 4   |
-| -------------- | ---------------------------------- | --- | --- | --- | --- |
-| Préconditions  | un workspace est ouvert            | F   | F   | T   | T   |
-| Préconditions  | un style est choisi                | F   | T   | F   | T   |
-| Postconditions | le style de tableau est transformé | F   | F   | F   | T   |
+|                                    | 1   | 2   | 3   | 4   |
+| ---------------------------------- | --- | --- | --- | --- |
+| Un Workspace est ouvert            | T   | T   | F   | F   |
+| Un style est choisi                | T   | F   | T   | F   |
+| Postconditions                     |     |     |     |     |
+| Le style de tableau est transformé | T   | F   | F   | F   |
+
+
+# Diagramme de cas d'utilisation:
+![Cat](https://github.com/Mamine-aloui/Peinture/blob/main/Diagrammes/usecase.png)
