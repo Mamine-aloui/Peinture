@@ -100,10 +100,10 @@ Le projet vise à développer un logiciel de peinture qui offre aux utilisateurs
 ![Cat](https://github.com/Mamine-aloui/Peinture/blob/main/Diagrammes/Class.svg)
 
 # Diagramme de conception detaillé:
-![Cat](https://github.com/Mamine-aloui/Peinture/blob/main/Diagrammes/conception detaillee.svg)
+![Cat](https://github.com/Mamine-aloui/Peinture/blob/main/Diagrammes/conception_detaillee.svg)
 
 # Diagramme de machine d'etat:
-![Cat](https://github.com/Mamine-aloui/Peinture/blob/main/Diagrammes/Diagramme de machine d etat.svg)
+![Cat](https://github.com/Mamine-aloui/Peinture/blob/main/Diagrammes/etat.svg)
 
 # Diagramme de classe raffinée:
-![Cat](https://github.com/Mamine-aloui/Peinture/blob/main/Diagrammes/Classe Raffinee.svg)
+![Cat](https://github.com/Mamine-aloui/Peinture/blob/main/Diagrammes/Classe_Raffinee.svg)
