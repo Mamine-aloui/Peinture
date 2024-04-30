@@ -1,0 +1,100 @@
+@startuml
+
+class User {
+    -nom: String
+    +utiliserEspaceDeTravail(espace: EspaceDeTravail): void
+}
+
+class EspaceDeTravail {
+    -dimensions: Dimensions
+    -calques: List<Calque>
+    -background: Couleur
+    -resolution: int
+    +créerCalque(): Calque
+}
+
+class Calque {
+    -nom: String
+    -opacité: float
+    -visible: bool
+    -contenu: Contenu
+    +fusionner(autre: Calque): Calque
+    +dupliquer(): Calque
+    +verrouiller(): void
+    +appliquerOutil(outil: Outil): void
+    +appliquerFiltre(filtre: Filtre): void
+}
+
+class Outil {
+    -nom: String
+    -opacité: float
+    -taille: float
+    -dureté: float
+    +appliquer(calque: Calque, zone: Zone): void
+    +configurer(paramètres: Paramètres): void
+}
+
+class Filtre {
+    -nom: String
+    -intensité: float
+    -paramètres: Map<String, float>
+    +appliquer(calque: Calque): void
+}
+
+class AI {
+    -styleOptions: List<Style>
+    +appliquerStyle(calque: Calque, style: Style): void
+}
+
+class Stylus {
+    -pression: float
+    -tilt: float
+    +utiliserOutil(outil: Outil): void
+    +ajusterTaille(taille: float): void
+    +ajusterOpacité(opacité: float): void
+    +ajusterSensibilité(pression: float): void
+}
+
+class Tablet {
+    -type: String
+    +connecterStylus(stylet: Stylus): void
+    +recevoirEntrée(): Entrée
+}
+
+class File {
+    -nom: String
+    -format: String
+    -taille: int
+    +ouvrir(): void
+    +fermer(): void
+    +enregistrer(): void
+}
+
+User -- EspaceDeTravail : utilise
+EspaceDeTravail -- Calque : contient
+Calque -- Contenu : contient
+Calque -- Outil : utilise
+Calque -- Filtre : utilise
+AI -- Calque : gère
+Stylus -- Tablet : connecte
+Tablet -- EspaceDeTravail : contrôle
+File -- EspaceDeTravail : sauvegarde les travaux
+
+note left of Calque
+  Invariants :
+  - 0 <= opacité <= 1
+  - visible == True ou False
+  - contenu n'est pas None
+  - nom n'est pas None et nom != ""
+end note
+
+note right of Stylus
+  Invariants :
+  - 0 <= pression <= 1
+  - 0 <= tilt <= 1
+  - utiliserOutil uniquement si initialisé correctement
+  - ajusterTaille dans les limites valides
+  - ajusterOpacité dans les limites valides
+end note
+
+@enduml
